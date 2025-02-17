@@ -1,4 +1,4 @@
-package _01_;
+package _01_FindElement;
 
 import Utility.MyFunc;
 import org.openqa.selenium.WebDriver;
