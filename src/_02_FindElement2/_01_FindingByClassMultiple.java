@@ -1,4 +1,4 @@
-package _02_;
+package _02_FindElement2;
 
 import Utility.MyFunc;
 import org.openqa.selenium.By;
