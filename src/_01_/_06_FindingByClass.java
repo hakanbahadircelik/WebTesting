@@ -13,7 +13,7 @@ public class _06_FindingByClass {
         driver.get("https://form.jotform.com/221934510376353");
 
         WebElement textBox1 = driver.findElement(By.className("form-textbox"));
-        // if there is more than one same element in findElement, it sends first one
+        // if there is more than one same element in findElement, it sends the first one
         textBox1.sendKeys("baha");
 
 
