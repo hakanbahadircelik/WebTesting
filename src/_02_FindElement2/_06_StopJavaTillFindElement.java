@@ -13,7 +13,7 @@ import java.util.List;
 public class _06_StopJavaTillFindElement extends BaseDriver {
     public static void main(String[] args) {
 
-        DriverStart();
+//        DriverStart();
 
         driver.get("https://www.hepsiburada.com/");
 

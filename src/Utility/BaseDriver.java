@@ -8,8 +8,9 @@ public class BaseDriver {
 
     public static WebDriver driver;
 
-    public static void DriverStart(){
+    static  {  //  if only static is there, its automatically starts at the top of the code page.
         driver = new ChromeDriver();
+        driver.manage().window().maximize(); // makes fullScreen
         driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(20)); // loading page wait till 30sec, or ERROR
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20)); // find element wait till 30sec, or ERROR
     }
