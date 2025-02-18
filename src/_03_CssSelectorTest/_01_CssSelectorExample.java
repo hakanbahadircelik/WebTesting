@@ -1,15 +1,12 @@
-package _03_CssSelector;
+package _03_CssSelectorTest;
+
 import Utility.BaseDriver;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
-import org.junit.Assert; // *
-import org.junit.Test; // *
+public class _01_CssSelectorExample extends BaseDriver {
+    public static void main(String[] args) {
 
-public class _02_CssSelectorTest extends BaseDriver {
-
-    @Test                   // no need main anymore
-    public void Test01(){
         driver.get("https://demo.selenium.com/basic-first-form-demo.html");
 
         String message = "hello selenium";
@@ -21,11 +18,11 @@ public class _02_CssSelectorTest extends BaseDriver {
 
         WebElement msg = driver.findElement(By.cssSelector("[id='display']"));
 
-        Assert.assertTrue(msg.getText().contains(message)); // is it TRUE or FALSE
-        // if it's true, don't write anything
-        // if its false, it gives ERROR MESSAGE
+        if (msg.getText().contains(message))
+            System.out.println("TEST PASSED");
+        else
+            System.out.println("TEST FAILED");
 
         WaitAndQuit();
     }
-
 }

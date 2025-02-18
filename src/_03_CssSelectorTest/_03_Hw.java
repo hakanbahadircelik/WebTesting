@@ -1,4 +1,4 @@
-package _03_CssSelector;
+package _03_CssSelectorTest;
 
 import Utility.BaseDriver;
 import org.junit.Test;
