@@ -18,5 +18,5 @@ public class _08_GetCssValue extends BaseDriver {
         System.out.println("element.getAttribute(background) = " + element.getAttribute("background"));
 
         WaitAndQuit();
-    } 5
+    }
 }
