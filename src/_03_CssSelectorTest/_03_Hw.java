@@ -21,8 +21,8 @@ public class _03_Hw extends BaseDriver {
         WebElement select = driver.findElement(By.xpath("//select[@id='u_XiB_4588']"));
         select.click();
         MyFunc.Wait(1);
-        WebElement onelineAdv = driver.findElement(By.xpath("//option[@value='Online Advertising']"));
-        onelineAdv.click();
+        WebElement onlineAdv = driver.findElement(By.xpath("//option[@value='Online Advertising']"));
+        onlineAdv.click();
 
         MyFunc.Wait(1);
         WebElement everyD = driver.findElement(By.xpath("//label[@for='u_XiB_89585_0']"));
