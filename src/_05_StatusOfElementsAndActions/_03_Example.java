@@ -1,4 +1,4 @@
-package _05_StatusOfElements;
+package _05_StatusOfElementsAndActions;
 
 import Utility.BaseDriver;
 import Utility.MyFunc;
@@ -7,8 +7,6 @@ import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
-
-import java.util.List;
 
 public class _03_Example extends BaseDriver {
 

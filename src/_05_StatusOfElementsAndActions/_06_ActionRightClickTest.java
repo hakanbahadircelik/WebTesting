@@ -1,4 +1,4 @@
-package _05_StatusOfElements;
+package _05_StatusOfElementsAndActions;
 
 import Utility.BaseDriver;
 import Utility.MyFunc;
@@ -8,21 +8,22 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Action;
 import org.openqa.selenium.interactions.Actions;
 
-public class _07_ActionHoverTest extends BaseDriver {
+public class _06_ActionRightClickTest extends BaseDriver {
 
     @Test
     public void Test01(){
 
-        driver.get("https://www.trendyol.com/");
+        driver.get("https://demoqa.com/buttons");
 
-        WebElement element = driver.findElement(By.xpath("//span[text()='Moda']"));
+        WebElement btnRightClick;
+        btnRightClick = driver.findElement(By.id("rightClickBtn"));
         MyFunc.Wait(1);
 
         Actions actions = new Actions(driver);
-        Action action = actions.moveToElement(element).build();
+        Action action = actions.contextClick(btnRightClick).build();
         action.perform();
 
-        MyFunc.Wait(1);
+
         WaitAndQuit();
     }
 
