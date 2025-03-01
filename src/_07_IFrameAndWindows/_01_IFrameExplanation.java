@@ -1,4 +1,4 @@
-package _07_IFrame;
+package _07_IFrameAndWindows;
 
 import Utility.BaseDriver;
 import org.junit.Test;
