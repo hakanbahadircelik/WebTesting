@@ -1,4 +1,4 @@
-package _05_StatusOfElementsAndActions;
+package _05_StatusOfElements_Actions;
 
 import Utility.BaseDriver;
 import org.junit.Test;

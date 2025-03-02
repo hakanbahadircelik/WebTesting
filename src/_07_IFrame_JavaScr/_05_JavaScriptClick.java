@@ -1,4 +1,4 @@
-package _07_IFrame_Windows_JavaScr;
+package _07_IFrame_JavaScr;
 
 import Utility.BaseDriver;
 import Utility.MyFunc;
