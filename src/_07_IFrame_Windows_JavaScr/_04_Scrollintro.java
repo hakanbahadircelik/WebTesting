@@ -1,10 +1,8 @@
-package _07_IFrameAndWindows;
+package _07_IFrame_Windows_JavaScr;
 
 import Utility.BaseDriver;
-import Utility.MyFunc;
 import org.junit.Test;
 import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.interactions.Actions;
 
 public class _04_Scrollintro extends BaseDriver {
 

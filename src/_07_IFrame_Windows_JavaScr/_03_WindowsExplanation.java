@@ -1,4 +1,4 @@
-package _07_IFrameAndWindows;
+package _07_IFrame_Windows_JavaScr;
 
 import Utility.BaseDriver;
 import Utility.MyFunc;
@@ -6,7 +6,6 @@ import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
-import java.util.Base64;
 import java.util.List;
 
 public class _03_WindowsExplanation extends BaseDriver {

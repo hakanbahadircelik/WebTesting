@@ -1,4 +1,4 @@
-package _07_IFrameAndWindows;
+package _07_IFrame_Windows_JavaScr;
 
 import Utility.BaseDriver;
 import org.junit.Test;
