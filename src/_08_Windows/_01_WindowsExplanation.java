@@ -8,6 +8,7 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 
 import java.util.List;
+import java.util.Set;
 
 public class _01_WindowsExplanation extends BaseDriver {
 
@@ -25,7 +26,15 @@ public class _01_WindowsExplanation extends BaseDriver {
             js.executeScript("arguments[0].click();", e);
         }
 
+        Set<String> windowsIds = driver.getWindowHandles(); // showing id of all pages
+        for (String s : windowsIds){
+            System.out.println("ID's = " + s);
+        }
 
-        WaitAndQuit();
+        String mainPageId = driver.getWindowHandle(); // showing mainpage id (where you belong first)
+
+        driver.switchTo().window(mainPageId);
+
+            WaitAndQuit();
     }
 }
