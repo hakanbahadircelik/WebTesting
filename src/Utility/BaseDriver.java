@@ -22,7 +22,7 @@ public class BaseDriver {
         Logger logger = Logger.getLogger(""); // get output logs
         logger.setLevel(Level.SEVERE); // show only errors
 
-        driver = new ChromeDriver();
+        driver = new ChromeDriver();  //  jenkins : start without head, work on memory
         driver.manage().window().maximize(); // makes fullScreen
         driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(20)); // loading page wait till 30sec, or ERROR
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20)); // find element wait till 30sec, or ERROR
